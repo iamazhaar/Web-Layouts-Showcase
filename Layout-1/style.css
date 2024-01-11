@@ -1,0 +1,29 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+#logo-div
+{
+    width: 100%;
+    min-height: 70px;
+    background-color: lightgray;
+    padding-left: 2%;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+
+#nav-div
+{
+    width: 100%;
+    min-height: 35px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
