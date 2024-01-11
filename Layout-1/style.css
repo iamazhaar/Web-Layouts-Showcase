@@ -27,3 +27,67 @@
     line-height: 35px;
     margin-bottom: 10px;
 }
+
+
+#header-banner-div
+{
+    width: 100%;
+    min-height: 300px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 300px;
+    margin-bottom: 10px;
+}
+
+
+#parent-div
+{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#sidebar-div
+{
+    width: 25%;
+    min-height: 500px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 500px;
+    float: left;
+}
+
+
+#bodyarea-div
+{
+    width: 70%;
+    min-height: 500px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 500px;
+    float: right;
+}
+
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#footer-div
+{
+    width: 100%;
+    min-height: 70px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 70px;
+}
+
+
+#wrapper-div
+{
+    width: 90%;
+    margin:auto;
+}
