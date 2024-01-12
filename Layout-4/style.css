@@ -1,0 +1,126 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+#logo-nav-div
+{
+    width: 100%;
+    min-height: 60px;
+    margin-bottom: 10px;
+}
+
+
+#logo-div
+{
+    width: 50%;
+    min-height: 60px;
+    background-color: lightgray;
+    line-height: 60px;
+    padding-left: 3%;
+    float: left;
+}
+
+
+#nav-div
+{
+    width: 50%;
+    min-height: 60px;
+    background-color: lightgray;
+    line-height: 60px;
+    padding-left: 3%;
+    float: right;
+}
+
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#row-1, #row-2, #row-3, #row-4
+{
+    width: 100%;
+    min-height: 150px;
+}
+
+
+.box
+{
+    width: 22%;
+    min-height: 150px;
+    background-color: lightgray;
+    margin-bottom: 10px;
+    float: left;
+}
+
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+.box:nth-child(2)
+{
+    margin-left: 4%;
+}
+
+
+.box:nth-child(3)
+{
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+
+#row-5
+{
+    width: 100%;
+    min-height: 200px;
+    margin-bottom: 10px;
+}
+
+
+.box1
+{
+    width: 30%;
+    min-height: 200px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 200px;
+    float: left;
+}
+
+
+.box1:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#footer-div
+{
+    width: 100%;
+    min-height: 60px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 60px;
+}
+
+
+#wrapper-div
+{
+    width: 80%;
+    margin: auto;
+}
