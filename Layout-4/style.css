@@ -62,14 +62,6 @@
 }
 
 
-.clearfix::after
-{
-    content: "";
-    display: block;
-    clear: both;
-}
-
-
 .box:nth-child(2)
 {
     margin-left: 4%;
