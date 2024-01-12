@@ -1,0 +1,109 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Verdana, Tahoma, sans-serif;
+}
+
+
+#logo-nav-div
+{
+    width: 100%;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+
+#logo-div
+{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    padding-left: 2%;
+    float: left;
+}
+
+
+#nav-div
+{
+    width: 50%;
+    min-height: 50px;
+    background-color: lightgray;
+    line-height: 50px;
+    padding-left: 2%;
+    float: right;
+}
+
+
+#header-banner-div
+{
+    width: 100%;
+    min-height: 100px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 100px;
+    margin-bottom: 10px;
+}
+
+
+#intro-div
+{
+    width: 100%;
+    min-height: 70px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 70px;
+    margin-bottom: 10px;
+}
+
+
+#main-div
+{
+    width: 100%;
+    min-height: 400px;
+    margin-bottom: 10px;
+}
+
+
+#main-div .box
+{
+    width: 30%;
+    min-height: 400px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 400px;
+    float: left;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
+#main-div .box:nth-child(2)
+{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
+#footer-div
+{
+    width: 100%;
+    min-height: 50px;
+    background-color: lightgray;
+    text-align: center;
+    line-height: 50px;
+}
+
+
+#wrapper-div
+{
+    width:80%;
+    margin: auto;
+}
